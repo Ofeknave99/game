@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./imgstrat.jpg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.entry-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 80px;
+    color: #060505;
+    margin-bottom: 20px;
+    font-family: IBM Plex Sans;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
